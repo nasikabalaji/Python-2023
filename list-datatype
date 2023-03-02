@@ -1,0 +1,139 @@
+'''l1=['cat','dog','goat','monkey']
+l2=['lion','tiger','wild_cat','gorilla']
+l=l1+l2
+print(l)
+l1.append(l2)
+print(l1)'''
+
+
+#using +=
+'''l1=['cat','dog','goat','monkey']
+l2=['lion','tiger','wild_cat','gorilla']
+l1+=l2
+print(l1)'''
+
+
+'''l1={'cat','dog','goat','monkey'}
+l2={'lion','tiger','wild_cat','gorilla'}
+l3=list(l1)
+l4=list(l2)
+l3+=l4
+print(l3)'''
+
+
+#union method
+'''domestic_animals={'dog','cat','elephant'}
+wild_animals={'lion','tiger','elephant'}
+animals=domestic_animals.union(wild_animals)
+animals=wild_animals.union(domestic_animals)
+print(animals)'''
+
+
+'''l=['aaa','red','round','ccc','road','orange']
+l1=[]
+for i in l:
+    if len(l)>=3 and i[0]=='r':
+        print(i)
+    else:
+        continue'''
+
+
+'''string=["red","green","yellow","white","brown"]
+for i in string:
+    if len(i)>=5:
+        print(i)'''
+
+'''strings=['red','green','yellow','white','brown']
+for i in strings:
+    if len(i)>=5:
+        print(i)
+result=max(strings,key=len)
+print(result+ '**')'''
+
+'''l=[1.0, 1.5,9.0, 10.7, 2 ]
+l.sort()
+print(l)'''
+
+
+'''s=['apples','apples','bananas','apples','pear','pineapples','pear','apples','bananas']
+l=['apples','bananas','pineapples']
+n=input('enter a string: ')
+if l in s:
+    print(l)
+else:
+    print(s.count(n))'''
+
+
+#Reversing the input
+'''a=[1,2,3,4,5,6,7,8,9,10]
+b=a[:4]
+c=a[10:4:-1]
+print(b+c)'''
+
+
+#Remove empty strings from the list of strings
+'''a=['apple','banana','','carrot','','dragon_fuit']
+print(a.pop(2))
+print(a)
+print(a.pop(3))
+print(a)'''
+
+'''print(a[:2]+a[3:4]+a[5:])'''
+
+'''for i in a:
+    pass
+    if '' in a:
+        a.remove('')
+print(a)'''
+
+'''print('original list: '+ str(a))
+while '' in a:
+    a.remove('')
+print('After removing empty strings from the list: ',str(a))'''
+
+
+#Iterate both lists simultaneously
+'''a=[1,2,3]
+k=['a','b','c']
+l=['x','y','z']
+for i,j in enumerate(a):
+    print(j,k[i],l[i])'''
+
+
+#Concatenate two lists in the given order
+'''l1=[1,2,3,4,5]
+l2=[6,7,8,9,10]
+l=l1+l2
+print(l)'''
+
+
+#Turn every item of a list into its square
+'''a=[1,2,3,4,5]
+b=[i*i for i in a]
+print(b)'''
+
+'''c=[i*i for i in range(11)]
+print(c)'''
+
+'''d=[i**2 for i in range(11)]
+print(d)'''
+
+
+#Concatenate two lists index-wise
+'''l1=[1,2,3,4,5]
+l2=[6,7,8,9,10]
+for i,j in zip(l1,l2):
+    print(i,j)'''
+
+
+#Reverse a list
+'''l=[1,2,3,4,5,6,7,8,9,10]
+m=l[::-1]
+print(m)'''
+
+'''l=[1,2,3,4,5,6,7,8,9,10]
+l.reverse()
+print(l)'''
+
+'''l.sort(reverse=True)
+print(l)'''
