@@ -1,0 +1,32 @@
+#dictionaries
+'''mycat={'size':'fat','color':'gray','disposition':'loud'}
+k=mycat['size']
+print(k)
+print('my cat has '+ mycat['color'] + ' fur.')
+print('my cat is in ' + mycat['color'] + ' color')'''
+
+
+'''eggs={'name':'zophie','species':'cat','age':8}
+print(list(eggs.keys()))
+print(list(eggs.values()))
+print(list(eggs.items()))'''
+
+
+'''d={'name':'balaji','age':21,'gender':'male'}
+l=['name','age','gender','address']
+for l in d:
+    if l not in d:
+        print('item is in dict')
+    else:
+        print('address is not present')
+        break
+print(d.items())'''
+
+
+'''D={'name':'cat','age':2,'gender':'f'}
+L=['name','age','gender','address']
+for item in L:
+    if item in D.keys():
+        print(f'key:{item}, value:{D[item]}')
+    else:
+        print(f'{item} is not in list D')'''
