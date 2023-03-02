@@ -1,0 +1,46 @@
+'''a='abcdefghijk'
+b=a[:4]
+c=a[10:3:-1]
+print(b+c)'''
+
+
+'''string = 'abc 12 /n de 23 /n f45 6'
+print(string.replace(" ", ""))
+print(string.replace(" ",'$'))'''
+
+
+'''str = "Python is easy to learn, but only if you practice Python it can be easy"
+a=str.find('python')
+print(a)'''
+
+
+'''a = "Python is easy to learn, but only if you practice Python it can be easy"
+if 'Python' in a:
+    print('yes, it is present in the given string')
+else:
+    print('no, it is not present in the given string')'''
+
+
+'''a = "There are 8 monkeys sitting on 4 trees."
+a=input()
+b=[int(i) for i in a.split() if i.isdigit()]
+print(b)'''
+
+
+#string methods
+'''a='Hello'
+print(a.center(20,'-'))'''
+
+'''a='   Hello   '
+print(a.strip())'''
+
+'''b='Welcome to my world!'
+print(b.replace('o','k'))'''
+
+
+#string formatting
+'''name='Alice'
+place='Main street'
+time='6 pm'
+food='turnips'
+print('Hello '+name+', you are invited to a party at '+ place + time + food)'''
