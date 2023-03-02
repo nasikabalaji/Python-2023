@@ -1,0 +1,25 @@
+#creating a tuple
+'''t = ("apple","banana","cherry")
+print(t)'''
+
+
+#Finding the length
+'''t=("apple","banana","cherry")
+print(len(t))'''
+
+
+#concatination of tuples
+'''tuple1 = (0, 1, 2, 3)
+tuple2 = ('python', 'geek')
+print(tuple1 + tuple2)'''
+
+'''tuple1 = (0, 1, 2, 3)
+tuple2 = ('python', 'geek')
+tuple3 = (tuple1, tuple2)
+print(tuple3)'''
+
+
+#reassigning
+'''tuple1 = (0, 1, 2, 3)
+tuple1[0] = 4
+print(tuple1)'''
