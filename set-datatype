@@ -1,0 +1,47 @@
+#using intersection method to print common elements
+'''k={'icecreams','cakes','puff','chocolates'}
+l={'vinella','icecreams','pineapple','lemons','cakes','chocolates'}
+m=list(k.intersection(l))
+m=list(k & l)
+print(m)'''
+
+
+#converting set to list
+'''a={1,2,3,4,5,1,2,3}
+print(list(a))'''
+
+
+#update list to set
+'''animals={'dog','cat','elephant'}
+wild_animals=['tiger','leopard','elephant']
+g=set(wild_animals)
+animals.update(wild_animals)
+print(animals)'''
+
+
+#removing the elements using remove from the set
+'''animals={'tiger','cat','elephant','dog'}
+animals.remove('fish')
+print(animals)'''
+
+
+#removing the element using discard
+'''animals={'tiger','cat','elephant','dog'}
+animals.discard('lion')
+print(animals)'''
+
+
+#finding the element is present in set or not
+'''animals={'tiger','cat','elephant','dog'}
+print('tiger' in animals)'''
+
+
+'''wild_animals={'lion','tiger','elephant'}
+animals=wild_animals|dom estic_animals
+animals=domestic_animals|wild_animals
+print(animals)'''
+
+
+'''animals={'dog','cat','tiger','elephant','dog'}
+print('1.',animals)
+domestic_animals={'dog','cat','elephant'}'''
